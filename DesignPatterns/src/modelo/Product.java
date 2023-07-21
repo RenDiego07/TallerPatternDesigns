@@ -1,4 +1,5 @@
-package Empresa;
+package modelo;
 
 public class Product {
+
 }

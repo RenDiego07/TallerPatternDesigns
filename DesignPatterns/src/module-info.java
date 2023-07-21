@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author alexv
+ *
+ */
+module IteratorPattern {
+}
