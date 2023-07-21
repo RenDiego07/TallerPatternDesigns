@@ -1,5 +1,6 @@
 package Warranty;
 
-public class Handler {
-
+public abstract class Handler implements ProductWarrantyChain {
+	ProductWarrantyChain nextChain;
+	
 }

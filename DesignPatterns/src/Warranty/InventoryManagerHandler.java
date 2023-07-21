@@ -1,7 +1,7 @@
 package Warranty;
 import modelo.Product;
-public class InventoryManagerHandler implements ProductWarrantyChain {
-	ProductWarrantyChain nextChain;
+public class InventoryManagerHandler extends Handler {
+
 	public void setNextChain(ProductWarrantyChain nextChain) {
 		nextChain = nextChain;
 	}

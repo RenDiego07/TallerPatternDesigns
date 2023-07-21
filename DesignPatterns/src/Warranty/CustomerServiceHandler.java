@@ -1,7 +1,7 @@
 package Warranty;
 import modelo.Product;
 import java.util.Date;
-public class CustomerServiceHandler implements ProductWarrantyChain {
+public class CustomerServiceHandler extends Handler {
 	ProductWarrantyChain nextChain;
 	Date currentDate;
 	public void setNextChain(ProductWarrantyChain nextChain) {
